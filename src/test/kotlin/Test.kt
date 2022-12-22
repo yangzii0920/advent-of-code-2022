@@ -21,4 +21,14 @@ internal class Test {
         println(Day2().shapes())
     }
 
+    @Test
+    fun day3part1 () {
+        println(Day3().sumOfPriority())
+    }
+
+    @Test
+    fun day3part2 () {
+        println(Day3().sumOfBadges())
+    }
+
 }
