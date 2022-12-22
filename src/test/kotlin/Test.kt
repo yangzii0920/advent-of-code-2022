@@ -11,4 +11,14 @@ internal class Test {
         println(Day1().top3Sum())
     }
 
+    @Test
+    fun day2part1 () {
+        println(Day2().score())
+    }
+
+    @Test
+    fun day2part2 () {
+        println(Day2().shapes())
+    }
+
 }
