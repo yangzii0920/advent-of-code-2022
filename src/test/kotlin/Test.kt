@@ -62,4 +62,15 @@ internal class Test {
         println(Day6().slidingWindowUnique(14))
     }
 
+    @Test
+    fun day7part1 () {
+        println(Day7().sizeOfFiles())
+    }
+
+
+    @Test
+    fun day7part2 () {
+        println(Day7().sizeOfDirToDelete())
+    }
+
 }
