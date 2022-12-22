@@ -31,4 +31,14 @@ internal class Test {
         println(Day3().sumOfBadges())
     }
 
+    @Test
+    fun day4part1 () {
+        println(Day4().countFullOverlap())
+    }
+
+    @Test
+    fun day4part2 () {
+        println(Day4().countOverlap())
+    }
+
 }
