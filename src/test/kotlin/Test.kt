@@ -73,4 +73,15 @@ internal class Test {
         println(Day7().sizeOfDirToDelete())
     }
 
+    @Test
+    fun day8part1 () {
+        println(Day8().visibleTrees())
+    }
+
+
+    @Test
+    fun day8part2 () {
+        println(Day8().highestScore())
+    }
+
 }
