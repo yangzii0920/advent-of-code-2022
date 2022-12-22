@@ -51,4 +51,15 @@ internal class Test {
         println(Day5().topCrates9001())
     }
 
+
+    @Test
+    fun day6part1 () {
+        println(Day6().slidingWindowUnique(4))
+    }
+
+    @Test
+    fun day6part2 () {
+        println(Day6().slidingWindowUnique(14))
+    }
+
 }
