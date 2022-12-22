@@ -41,4 +41,14 @@ internal class Test {
         println(Day4().countOverlap())
     }
 
+    @Test
+    fun day5part1 () {
+        println(Day5().topCrates9000())
+    }
+
+    @Test
+    fun day5part2 () {
+        println(Day5().topCrates9001())
+    }
+
 }
