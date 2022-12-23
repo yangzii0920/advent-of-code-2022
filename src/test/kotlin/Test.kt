@@ -84,4 +84,16 @@ internal class Test {
         println(Day8().highestScore())
     }
 
+    @Test
+    fun day9part1 () {
+        println(Day9().numberOfPositionsTailVisited(2))
+    }
+
+
+    @Test
+    fun day9part2 () {
+        println(Day9().numberOfPositionsTailVisited(10))
+    }
+
+
 }
