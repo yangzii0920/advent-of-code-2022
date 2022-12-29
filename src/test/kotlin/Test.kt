@@ -95,5 +95,16 @@ internal class Test {
         println(Day9().numberOfPositionsTailVisited(10))
     }
 
+    @Test
+    fun day10part1 () {
+        println(Day10().sumOfSignalStrengths())
+    }
+
+
+    @Test
+    fun day10part2 () {
+        Day10().render()
+    }
+
 
 }
