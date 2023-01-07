@@ -89,7 +89,6 @@ internal class Test {
         println(Day9().numberOfPositionsTailVisited(2))
     }
 
-
     @Test
     fun day9part2 () {
         println(Day9().numberOfPositionsTailVisited(10))
@@ -106,5 +105,14 @@ internal class Test {
         Day10().render()
     }
 
+    @Test
+    fun day11part1 () {
+        println(Day11().levelOfMonkeyBusinessOfTwoMostActiveMonkey(20, 3))
+    }
+
+    @Test
+    fun day11part2 () {
+        println(Day11().levelOfMonkeyBusinessOfTwoMostActiveMonkey(10000, 1))
+    }
 
 }
